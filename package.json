@@ -19,7 +19,7 @@
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
     "merge": "^2.1.1",
-    "vue": ">=3.0.0"
+    "vue": "^3.0.0"
   },
   "license": "MIT",
   "main": "compiled/main.js",
