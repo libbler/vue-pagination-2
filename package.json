@@ -16,9 +16,10 @@
     "dist",
     "index.js"
   ],
+  "dependencies": {
+    "merge": "^2.1.1"
+  },
   "peerDependencies": {
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "merge": "^2.1.1",
     "vue": "^3.0.0"
   },
   "license": "MIT",
@@ -32,6 +33,7 @@
     "babel-core": "^6.26.3",
     "babel-helper-vue-jsx-merge-props": "^2.0.2",
     "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-vue-jsx": "^3.3.0",
