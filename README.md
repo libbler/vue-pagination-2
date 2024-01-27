@@ -1,3 +1,13 @@
+# It was patched to support Vue 3
+
+Install deps (node 16 is required, on node 16+ it will fail):
+1. `npm install`
+
+How to build:
+1. `npm run build` to compile files
+2. `npm run build-dist` to make release file from compiled files
+
+=======================
 # Vue Pagination 2
 
 Using Vue 3? Check out the [new component](https://www.npmjs.com/package/v-pagination-3)

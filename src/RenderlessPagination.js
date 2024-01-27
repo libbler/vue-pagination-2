@@ -212,7 +212,9 @@ export default {
             this.$parent.$emit('input', page);
 
             this.$nextTick(() => {
+                console.log('nextTick')
                 if (this.$el) {
+                    console.log(this.$el)
                     this.$el.querySelector(`li.${this.Theme.active} a`).focus();
                 }
             });

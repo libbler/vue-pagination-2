@@ -229,7 +229,9 @@ exports.default = {
             this.$parent.$emit('input', page);
 
             this.$nextTick(function () {
+                console.log('nextTick');
                 if (_this2.$el) {
+                    console.log(_this2.$el);
                     _this2.$el.querySelector('li.' + _this2.Theme.active + ' a').focus();
                 }
             });
