@@ -16,7 +16,7 @@
     "dist",
     "index.js"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
     "merge": "^2.1.1",
     "vue": "^3.0.0"
