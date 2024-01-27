@@ -224,17 +224,17 @@ exports.default = {
             }
         },
         paginate: function paginate(page) {
-            var _this2 = this;
-
+            console.log('paginate');
             this.$parent.$emit('input', page);
 
-            this.$nextTick(function () {
-                console.log('nextTick');
-                if (_this2.$el) {
-                    console.log(_this2.$el);
-                    _this2.$el.querySelector('li.' + _this2.Theme.active + ' a').focus();
-                }
-            });
+            // disable this for now, it's rising an exception: querySelector is not a function
+            // this.$nextTick(() => {
+            //     console.log('nextTick')
+            //     if (this.$el) {
+            //         console.log(this.$el)
+            //         this.$el.querySelector(`li.${this.Theme.active} a`).focus();
+            //     }
+            // });
         },
 
         next: function next() {
