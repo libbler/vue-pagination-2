@@ -209,7 +209,6 @@ export default {
             }
         },
         paginate(page) {
-            console.log('paginate')
             this.$parent.$emit('input', page);
 
             // disable this for now, it's rising an exception: querySelector is not a function
