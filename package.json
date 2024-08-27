@@ -1,7 +1,7 @@
 {
   "name": "v-pagination-3",
   "description": "Vue.js 3 pagination component",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "keywords": [
     "pagination",
     "vuejs3",
@@ -17,7 +17,7 @@
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
     "merge": "^2.1.1",
-    "vue": ">=3.0.0"
+    "vue": "3.4.27"
   },
   "license": "MIT",
   "main": "dist/vue-pagination-2.min.js",
